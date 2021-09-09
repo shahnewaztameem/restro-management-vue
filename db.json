@@ -23,6 +23,24 @@
       "password": "saad123456",
       "name": "saad",
       "id": 4
+    },
+    {
+      "email": "kazi@gmail.com",
+      "password": "123456",
+      "name": "kazi",
+      "id": 5
+    },
+    {
+      "email": "gg@gmail.com",
+      "password": "44",
+      "name": "g",
+      "id": 6
+    },
+    {
+      "email": "batman@mail.co",
+      "password": "123456",
+      "name": "batman",
+      "id": 7
     }
   ]
 }

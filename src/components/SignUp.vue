@@ -32,11 +32,19 @@ export default {
 
       console.warn(result)
 
-      if(result.status === 201) {
-        alert('sign up success')
+      if (result.status === 201) {
         localStorage.setItem('user-info', JSON.stringify(result.data))
-      } 
+
+        this.$router.push({ name: 'Home' })
+      }
     },
+  },
+  mounted() {
+    let user = localStorage.getItem('user-info')
+
+    if (user) {
+      this.$router.push({ name: 'Home' })
+    } 
   },
 }
 </script>
