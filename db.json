@@ -42,5 +42,25 @@
       "name": "batman",
       "id": 7
     }
+  ],
+  "restaurant": [
+    {
+      "id": 1,
+      "name": "Burger King",
+      "contact": 111111,
+      "address": "Dhaka"
+    },
+    {
+      "id": 2,
+      "name": "Dominos",
+      "contact": 111111,
+      "address": "Tejgaon"
+    },
+    {
+      "id": 3,
+      "name": "KFC",
+      "contact": 111111,
+      "address": "Nakhalpara"
+    }
   ]
 }
