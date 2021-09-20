@@ -57,15 +57,15 @@
       "address": "Tejgaon"
     },
     {
-      "id": 3,
       "name": "KFC",
+      "address": "Tejgaon, Dhaka",
       "contact": 111111,
-      "address": "Nakhalpara"
+      "id": 3
     },
     {
-      "name": "pizza burg",
-      "address": "Dhaka",
-      "contact": "1111111111",
+      "name": "pizza burg updated",
+      "address": "Dhaka, Bangladesh",
+      "contact": "88888888888",
       "id": 4
     },
     {

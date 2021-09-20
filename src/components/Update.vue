@@ -20,7 +20,7 @@
       placeholder="Enter Contact"
       v-model="restaurant.contact"
     />
-    <button type="button" @click="addRestaurant">
+    <button type="button" @click="updateRestaurant">
       Update restaurant
     </button>
   </form>
@@ -42,6 +42,19 @@ export default {
         address: '',
         contact: '',
       },
+    }
+  },
+  methods: {
+    async updateRestaurant() {
+      const result = await axios.put(`http://localhost:3000/restaurant/${this.$route.params.id}`, {
+        name: this.restaurant.name,
+        address: this.restaurant.address,
+        contact: this.restaurant.contact,
+      })
+
+      if (result.status === 200) {
+        this.$router.push({ name: 'Home' })
+      }
     }
   },
   async mounted() {
