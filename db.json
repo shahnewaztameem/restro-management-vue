@@ -61,6 +61,24 @@
       "name": "KFC",
       "contact": 111111,
       "address": "Nakhalpara"
+    },
+    {
+      "name": "pizza burg",
+      "address": "Dhaka",
+      "contact": "1111111111",
+      "id": 4
+    },
+    {
+      "name": "vaja pora",
+      "address": "Uttara",
+      "contact": "111111",
+      "id": 5
+    },
+    {
+      "name": "CP",
+      "address": "Banani",
+      "contact": "123654",
+      "id": 6
     }
   ]
 }
